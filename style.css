@@ -1,0 +1,26 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background: #000;
+  overflow: hidden;
+}
+main {
+  position: absolute;
+  top: 0;
+  padding: 2rem;
+  max-width: 800px;
+}
+h1, h2 {
+  margin: 0.5rem 0;
+}
+ul {
+  list-style: square;
+  margin-left: 1.2rem;
+}
+canvas#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
